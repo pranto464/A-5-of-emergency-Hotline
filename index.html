@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service Directory - Bangladesh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="Images/logo.png" alt="Emergency Service Logo" class="logo">
+            <span class="site-name">Emergency Service</span>
+        </div>
+        <div class="nav-right">
+
+            <!-- hamburger button -->
+
+            <div class="hamburger-menu" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="desktop-nav">
+                <div class="nav-counter shadow-box">
+                    <i class="fas fa-heart"></i>
+                    <span id="heartCount">0</span>
+                </div>
+                <div class="nav-counter shadow-box">
+                    <i class="fas fa-coins"></i>
+                    <span id="coinCount">100</span>
+                </div>
+                <button class="copy-counter-btn" type="button">
+                    <span id="copyCount">0</span> Copy
+                </button>
+            </div>
+
+            <!--  dropdown button -->
+              
+            <div id="mobileDropdown" class="mobile-dropdown">
+                <div class="mobile-nav-item">
+                    <i class="fas fa-heart"></i>
+                    <span id="mobileHeartCount">0</span>
+                </div>
+                <div class="mobile-nav-item">
+                    <i class="fas fa-coins"></i>
+                    <span id="mobileCoinCount">100</span>
+                </div>
+                <div class="mobile-nav-item">
+                    <span id="mobileCopyCount">0</span> Copy
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+
+
+
+
+
+     <script src="./js/script.js"></script>
+</body>
+</html>
