@@ -60,7 +60,7 @@
         <div class="hero-content">
             
             <div class="hero-logo-container">
-                <img src="/Images/logo-dark.png" alt=" Logo" class="hero-logo">
+                <img src="Images/logo-dark.png" alt=" Logo" class="hero-logo">
             </div>
             <h1 class="hero-title">Emergency Service Directory</h1>
             <p class="hero-subtitle">Government Emergency Services at Your Fingertip - A Project by Government of the People's Republic of Bangladesh</p>
@@ -68,6 +68,227 @@
     </section>
 
 
+    <!-- Card section main container -->
+
+<div class="main-container">
+        <div class="content-wrapper">
+            <div class="cards-section">
+                <div class="cards-grid">
+
+                    <!-- card-1 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/emergency.png" alt="image" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">National Emergency Number</h3>
+                        <p class="service-subtitle">National Emergency</p>
+                        <div class="service-number">999</div>
+                        <div class="service-category all-category">All</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('999')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('National Emergency Number', '999')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div> 
+                   
+
+                      <!-- card-2 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/police.png" alt="image" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">Police Helpline Number</h3>
+                        <p class="service-subtitle">Police</p>
+                        <div class="service-number">999</div>
+                        <div class="service-category police-category">Police</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('999')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('Police Helpline Number', '999')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- card-3 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/fire-service.png" alt="image" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">Fire Service Number</h3>
+                        <p class="service-subtitle">Fire Service</p>
+                        <div class="service-number">999</div>
+                        <div class="service-category fire-category">Fire</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('999')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('Fire Service Number', '999')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- card-4 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/ambulance.png" alt="image" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">Ambulance Service</h3>
+                        <p class="service-subtitle">Ambulance</p>
+                        <div class="service-number">1994-999999</div>
+                        <div class="service-category health-category">Health</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('1994-999999')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('Ambulance Service', '1994-999999')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div>
+
+
+                     <!-- card-5 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/women and child help line.png" alt="Women Child" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">Women & Child Helpline</h3>
+                        <p class="service-subtitle">Women & Child Helpline</p>
+                        <div class="service-number">109</div>
+                        <div class="service-category help-category">Help</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('109')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('Women & Child Helpline', '109')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- card-6 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/anti-corruption.jpg" alt="Anti Corruption" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">Anti-Corruption Helpline</h3>
+                        <p class="service-subtitle">Anti-Corruption</p>
+                        <div class="service-number">106</div>
+                        <div class="service-category govt-category">Govt.</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('106')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('Anti-Corruption Helpline', '106')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- card-7 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/electrical.png" alt="image" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">Electricity Helpline</h3>
+                        <p class="service-subtitle">Electricity Outage</p>
+                        <div class="service-number">16216</div>
+                        <div class="service-category electricity-category">Electricity</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('16216')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('Electricity Helpline', '16216')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- card-8 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/brac.png" alt="image" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">Brac Helpline</h3>
+                        <p class="service-subtitle">Brac</p>
+                        <div class="service-number">16445</div>
+                        <div class="service-category ngo-category">NGO</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('16445')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('Brac Helpline', '16445')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- card-9 -->
+
+                    <div class="service-card">
+                        <div class="card-top">
+                            <img src="Images/Bangladesh-Railway.png" alt="image" class="service-image">
+                            <i class="fas fa-heart heart-icon" onclick="addHeart()"></i>
+                        </div>
+                        <h3 class="service-title">Bangladesh Railway Helpline</h3>
+                        <p class="service-subtitle">Bangladesh Railway</p>
+                        <div class="service-number">163</div>
+                        <div class="service-category travel-category">Travel</div>
+                        <div class="card-buttons">
+                            <button class="copy-btn" onclick="copyNumber('163')">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                            <button class="call-btn" onclick="callService('Bangladesh Railway Helpline', '163')">
+                                <i class="fas fa-phone"></i> Call
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- History Section -->
+
+            <div class="history-section">
+                <div class="history-header">
+                    <div class="history-title">
+                        <i class="fas fa-clock"></i>
+                        <span>Call History</span>
+                    </div>
+                    <button class="clear-history-btn" onclick="clearHistory()">Clear</button>
+                </div>
+                <div id="historyList" class="history-list">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
      <script src="./js/script.js"></script>
