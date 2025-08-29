@@ -30,8 +30,8 @@ body {
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 8px;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -112,8 +112,8 @@ body {
 }
 
 .hero-logo {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   opacity: 0.9;
   line-height: 1.5;
@@ -192,7 +192,7 @@ body {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  /* Added hover effect for service cards */
+ 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -208,7 +208,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* Using images instead of icon divs */
+
 .service-image {
   width: 50px;
   height: 50px;
