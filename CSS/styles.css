@@ -325,3 +325,125 @@ body {
   background-color: #28a745;
   color: white;
 }
+
+.history-section {
+  width: 350px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.history-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.clear-history-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.history-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.history-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+  
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+.history-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.history-content {
+  flex: 1;
+}
+
+.no-history {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  padding: 40px 0;
+}
+
+@media (max-width: 1200px) {
+  .content-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .history-section {
+    width: 100%;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 16px;
+    position: sticky; 
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .main-container {
+    padding: 0 16px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 40px 16px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .mobile-dropdown {
+    right: 16px; 
+  }
+}
