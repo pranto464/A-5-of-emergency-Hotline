@@ -23,3 +23,109 @@ body {
   top: 0;
   z-index: 100;
 }
+ .nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.site-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c5530;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative; 
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-counter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+
+.shadow-box {
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  min-width: 60px; 
+  justify-content: center;
+}
+
+.nav-counter .fa-heart {
+  color: #e74c3c;
+}
+
+.nav-counter .fa-coins {
+  color: #f39c12;
+}
+
+.copy-counter-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.hero {
+  background: linear-gradient(135deg, #2c5530, #1e3a23);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.hero-logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hero-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.9;
+  line-height: 1.5;
+} 
